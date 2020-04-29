@@ -30,3 +30,5 @@ fields:
     schema:
       format: markdown
   label: Content
+pages:
+- content/collection/salvaged-series-2.md
