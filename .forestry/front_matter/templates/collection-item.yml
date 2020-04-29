@@ -30,5 +30,14 @@ fields:
     schema:
       format: markdown
   label: Content
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
 pages:
 - content/collection/salvaged-series-2.md
