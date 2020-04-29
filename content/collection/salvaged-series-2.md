@@ -1,5 +1,6 @@
 +++
 content = ""
+description = "A good description here."
 hero_image = ""
 published = false
 subtitle = "Test"
