@@ -1,6 +1,5 @@
 +++
 content = ""
-draft = true
 hero_image = ""
 published = false
 subtitle = "Test"
