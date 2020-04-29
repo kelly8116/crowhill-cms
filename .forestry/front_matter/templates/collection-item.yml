@@ -13,9 +13,15 @@ fields:
   config:
     required: false
   label: Subtitle
-- name: published
-  type: boolean
-  label: Published
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
 - name: hero_image
   type: file
   config:
@@ -30,14 +36,5 @@ fields:
     schema:
       format: markdown
   label: Content
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Description
 pages:
 - content/collection/salvaged-series-2.md
